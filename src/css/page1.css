@@ -1,0 +1,69 @@
+#engr_container{
+    position: relative;
+    text-align: center;
+}
+#engr_text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#engr{
+    width: 100%;
+    height: 500px;
+    opacity: 0.7;
+}
+#who_we_are{
+    text-align: center;
+}
+#flex{
+    display: flex;
+    padding: 0 1%;
+    margin-left: 2rem;
+    margin-right: 2rem
+}
+#flex_item_1{
+    flex: 1.5;
+    margin:  0 1%;
+}
+#flex_item_2{
+    flex: 1;
+    margin:  0 1%;
+}
+#client_first{
+    background-color: #f99233;
+    padding: 5px;
+}
+#repair_tools{
+    padding: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+#repair_tools:hover{
+    background-color: #f99233;
+    cursor: pointer;
+}
+#repair_tools_item{
+    display: none
+}
+#repair_tools_item2{
+    display: none
+}
+#safety_et_al{
+    background-color: #f99233;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 40px
+}
+
+@media only screen and (max-width :768px){
+    #flex{
+        display: flex;
+        flex-direction: column;
+        padding: 0 1%;
+        margin-left: 2rem;
+        margin-right: 2rem
+    }
+}
