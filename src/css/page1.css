@@ -16,6 +16,33 @@
 }
 #who_we_are{
     text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+#what_we_do{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+#from_our_clients{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+#from_our_clients_carousel{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: black;
+}
+#svg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 5rem;
+    background-color: #f99233;
+    
 }
 #flex{
     display: flex;
@@ -65,5 +92,12 @@
         padding: 0 1%;
         margin-left: 2rem;
         margin-right: 2rem
+    }
+    #safety_et_al{
+        background-color: #f99233;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 25px
     }
 }
