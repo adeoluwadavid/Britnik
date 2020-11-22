@@ -7,7 +7,7 @@ import './Page01.css'
 const Page01 = () => {
     return ( 
         <div id="main">
-            <Header />
+          <div id="header"><Header /></div>  
             <Page1 />
           <div id="testimonies"><Testimonies /></div>  
           <div id="footer"><Footer /></div>  

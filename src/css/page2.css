@@ -1,0 +1,90 @@
+#my_flex{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+   
+}
+
+#my_flex2{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+#image{
+    border : 1px solid #f99233;
+    width: 25rem;
+    height: 20rem;
+    text-align: center;
+}
+#image2{
+    width: 25rem;
+    height : 20rem;
+    margin-right: 10px;
+}
+#m_h{
+    text-align: center;
+}
+#flex_item{
+    margin-bottom: 1rem;
+    text-align: center;
+}
+#exec{
+    width: 20rem;
+    height: 25rem;
+}
+
+#image_container{
+    position: relative;
+    
+}
+#image_container_text{
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    color: white;
+    left: 25%;
+    
+}
+#our_team_main{
+    margin-bottom: 8rem;
+}
+#our_team{
+    text-align: center;
+}
+#our_team_flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width :768px){
+    #my_flex{
+        display: flex;
+        flex-direction: column;
+    }
+    #my_flex2{
+        display: flex;
+        flex-direction: column;
+    }
+    #page2{
+        text-align: center;
+    }
+    #image{
+        border : 1px solid #f99233;
+        width: 25rem;
+        height: 20rem;
+        float: right;
+    }
+    #our_team_flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    #image_container_text{
+        position: absolute;
+        bottom: 10px;
+        text-align: center;
+        color: white;
+        left: 35%;
+        
+    }
+}

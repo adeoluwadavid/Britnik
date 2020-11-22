@@ -1,13 +1,13 @@
 import React from 'react'
 import Header from '../components/header'
-import Testimonies from '../components/testimonies';
 import Footer from '../components/footer'
+import Page2 from '../components/page2'
 import './Page02.css'
 const Page02 = () => {
     return ( 
         <div id="main">
-            <Header />
-            <Testimonies />
+           <div ><Header /></div> 
+            <Page2 />
             <div id="footer"><Footer /></div>
             
         </div>
