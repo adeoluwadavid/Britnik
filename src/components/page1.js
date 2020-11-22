@@ -4,7 +4,7 @@ import repair from '../images/car-repair.svg'
 import servicing from '../images/car-wash-car.svg'
 import overhaul from '../images/car-overhaul.svg'
 
-import {Image,Card, CardDeck,Collapse, Carousel} from 'react-bootstrap'
+import {Image,Card, CardDeck,Collapse} from 'react-bootstrap'
 function Page1(){
     const [open, setOpen] = React.useState(false);
     const [close,setClose] = React.useState(false)
@@ -100,28 +100,6 @@ function Page1(){
                         </Card.Body>
                     </Card>
                 </CardDeck>
-            </div>
-            <div>
-                <h5 id="from_our_clients">FROM OUR CLIENTS</h5>
-                <Carousel id="from_our_clients_carousel">
-                    <Carousel.Item>
-                        <h5>We enjoy Britnik Engineering Service</h5>
-                        <p>Seun Ogegbe</p>
-                        <Carousel.Caption>
-                        <h5>Engr Seun's service is the best</h5>
-                         <p>Segun Agbaje</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                     
-                    <Carousel.Item>
-                         <h5>Engr Seun's service is the best</h5>
-                         <p>Segun Agbaje</p>
-                         <Carousel.Caption>
-                         <h5>Engr Seun's service is the best</h5>
-                         <p>Segun Agbaje</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                </Carousel>
             </div>
         </div>
     )

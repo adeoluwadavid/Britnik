@@ -1,0 +1,8 @@
+#footer_background{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px
+}
